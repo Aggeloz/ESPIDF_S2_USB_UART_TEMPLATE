@@ -12,12 +12,14 @@
  ░                      ░
  */
 
+// Import libraries
 #include <stdio.h>
 #include "esp_log.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/timers.h"
 #include "driver/gpio.h"
 
+// LOG Tag for outputting messages on the terminal
 static const char *TAG = "BlkBx";
 
 
